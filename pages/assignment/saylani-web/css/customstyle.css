@@ -1,0 +1,318 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.top-head{
+	background-color: #316DC3;
+}
+.social-i ul img{
+	width: 15px;
+}
+.custom-col{
+	height: 50px;
+}
+.social-i ul li{
+	transition: 0.30s;
+	width:25px;
+	height: 25px;
+	margin-top: 12px;
+	border-radius: 4px;
+	line-height: 20px;
+	margin-left: 10px;
+}
+.social-i ul{
+	display: flex;
+	justify-content: center;
+	margin-right: 40px;
+}
+.social-i ul li:hover{
+	background-color: #2E86C1;
+}
+.custom-col p{
+	color: white;
+	padding-top: 15px;
+	font-size: 15px;
+}
+.custom-btn{
+	background-color: #F5F5F5;
+	color: green;
+	border:1px solid green;
+	border-radius: 0px;
+	font-size:11px;
+	margin-top: 12px;
+	padding: 5px;
+}
+.header-top-bar{
+	background-color: #316DC3;
+}
+
+/*NAVIGATION*/
+
+
+.main-head{
+	background-color: #F7F8FA;
+	position: sticky;
+	top:0;
+	z-index: 1;
+}
+
+.nav-custom{
+	background-color: #F7F8FA;
+}
+
+.nav-custom-brand img{
+	width: 200px;
+	
+	
+}
+
+.nav-ul-custom{
+
+
+}
+
+.nav-ul-custom li{
+	margin-left: 2px;
+	border-radius: 30px;
+	padding-left:6px;
+	padding-right:6px;
+	display: block;
+	transition: 0.40s;
+	text-align: center;
+}
+
+.nav-ul-custom li:hover{
+	background-color: #316DC3;
+
+}
+
+
+.nav-ul-custom a{
+	color: #1C1C1C !important;
+	font-size: 14px;
+	font-family:  Open Sans;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	transition: 0.30s;
+}
+.active{
+	background-color: #316DC3;
+	color:white;
+}
+
+
+.nav-ul-custom a:hover{
+	color: white !important;
+}
+.custom-icon-toggle{
+	
+}
+.navbar-toggler{
+	padding:3px;
+}
+
+.mySlider img{
+	max-height: 400px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+	border-radius: 100px;
+	width: 30px;
+	height: 30px;
+	display: block;
+	background-color: rgba(0,0,0,0.4);
+
+}
+
+.marq{
+	background-color: #316DC3;
+	margin-top: 10px;
+	height: 33px;
+}
+
+.marq{
+	color: white;
+	line-height: 30px;
+	padding: 0px;
+	display: flex;
+}
+
+.marq a{
+	text-decoration:none;
+	color: #0000FF;
+}
+
+.content-custom h1{
+	font-family: Merriweather;
+	font-size: 35px;
+	font-weight: 600;
+}
+
+.content-custom{
+	margin-top: 50px;
+}
+
+.con-cus-f{
+	background-color: #F7F8FA;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.para-box p{
+	font-size: 15px;
+	color:#666666;
+	margin-top: 10px;
+	text-align: justify;
+
+}
+
+.para-box{
+	width: 90%;
+	margin-bottom: 100px;
+}
+
+.analytic-box{
+	background-color: #2655E8;
+	font-family: Merriweather;
+}
+
+.analytic-box img{
+	width: 50px;
+}
+
+.analytic-box p{
+	color:white;
+	font-size: 50px;
+}
+
+.a-c{
+	color: white;
+	font-size: 14px;
+}
+
+.mon{
+	color:#04E91D;
+	font-size: 16px;
+}
+
+.ana-row{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: flex;
+}
+
+.w-w-d{
+	font-family: Merriweather;
+}
+
+.row-c-data{
+	padding-top: 40px;
+}
+
+.real-box{
+	background-color: #F7F8FA;
+	padding-bottom: 50px;
+}
+
+.box-c{
+	box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+	margin: 10px;
+	padding: 30px;
+	background-color: white;
+
+}
+
+.box-c img{}
+
+
+.rowinner{
+	display: flex;
+	justify-content: center;
+
+}
+
+.gal-row img{
+	width: 200px;
+	height: 150px;
+}
+
+
+
+.gal-row{
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+	justify-content: space-between;
+	padding-bottom: 200px;
+}
+
+
+.custom-footer{
+	background-color: #25272E;
+	padding: 70px;
+}
+
+.f-social{
+
+}
+
+.f-social li{
+	background-color: #316DC3;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	border-radius: 20px;
+	line-height: 25px;
+}
+
+.gotopbtn{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+ 	background-color: rgba(0,0,0,0.3);
+ 	position: fixed;
+ 	bottom: 20px;
+ 	right: 30px;
+ 	text-decoration: none;
+ 	text-align: center;
+ 	color: white;
+ 	font-size: 33px;
+ 	line-height: 45px;
+ 	border-radius: 5px;
+}
+
+.gotopbtn:hover{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+ 	background-color:#316DC3;
+ 	position: fixed;
+ 	bottom: 20px;
+ 	right: 30px;
+ 	text-decoration: none;
+ 	text-align: center;
+ 	color: white;
+ 	font-size: 33px;
+ 	line-height: 45px;
+ 	border-radius: 5px;
+}
+
+
+
+
+@media (max-width:1200px) and (min-width: 770px){
+	.top-head{
+		height: 100px;
+	}
+}
+
+@media (max-width:500px){
+.custom-col p{
+		padding: 0px;
+	}
+}

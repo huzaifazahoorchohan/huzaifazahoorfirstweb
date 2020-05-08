@@ -1,0 +1,93 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: #2d3436;
+  font-family: 'Poppins', sans-serif;
+}
+
+.custom-nav ul{
+  padding: 20px;
+}
+
+.custom-nav li{
+  margin-left: 30px;
+  display: block;
+  text-align: center;
+}
+
+.custom-nav{
+  z-index: 1;
+}
+
+
+.custom-nav a{
+  color:#ffffff !important;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  padding: 1px;
+  transition: 0.30s;
+  border-radius: 5px;
+}
+
+.custom-nav a:hover{
+  color:#2d3436 !important;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff !important;
+  font-weight: bold;
+}
+
+.hero h1{
+  color:#ffffff;
+  font-weight:bold;
+  font-size: 5vw;
+  letter-spacing: 2px;
+  background-color: none;
+
+}
+
+.hero p{
+  color:#ffffff;
+  font-size: 2vw;
+  letter-spacing: 5px;
+  line-height: 1px;
+}
+
+.herobox{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  cursor: default;
+}
+.social-box li{
+  border: 1px solid white;
+  border-radius: 30px;
+    transition: 0.40s;
+    outline: none;
+}
+
+.social-box i{
+  padding: 10px;
+    transition: 0.40s;
+    outline: none;
+}
+
+.social-box li:hover{
+  background-color: #ffffff;
+}
+
+.social-box i:hover{
+  color:#2d3436 !important;
+}
+
+.social-box{
+  position: fixed;
+  bottom: 20px;
+  left:40px;
+  display: inline-block;
+
+}
+
